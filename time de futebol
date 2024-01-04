@@ -1,1 +1,34 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Responda true ou false");
+		
+		System.out.println("1) Sabe programar em java? ");
+		boolean jav = input.nextBoolean();
+		
+		System.out.println("2) Sabe os conceitos básicos de programação?");
+		boolean prog = input.nextBoolean();
+		
+		System.out.println("3)Dota é melhor q Warcraft 3?");
+		boolean war = input.nextBoolean();
+		System.out.println("4)Quer aprender programação orientada a objeto?");
+		boolean obj = input.nextBoolean();
+		
+		System.out.println("Sabe java?" + jav);
+		System.out.println("Sabe os conceitos? " + prog);
+		System.out.println("Sabe q Warcraft é melhor? " + war);
+		System.out.println("Quer aprender?" + obj);
+		
+		input.close();
+	}
+}
+
+
+
+
 
